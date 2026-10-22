@@ -1,0 +1,54 @@
+
+.bg-green-soft {
+    background-color: #e8f5e9;  
+}
+
+.bg-green-dark {
+    background-color: #14532d; 
+}
+
+.hero-section {
+
+    background:
+        linear-gradient(rgba(10, 60, 25, 0.45), rgba(10, 60, 25, 0.45)),
+        url(anhdauhead.jpg);
+    background-size: cover;
+    background-position: center 45%;   
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-height: 380px;
+}
+
+.hero-section h1,
+.hero-section p {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.card-img-custom {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-star {
+    color: rgb(47, 158, 68);
+}
+
+ul.list-unstyled a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hotel-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.avatar-review {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
